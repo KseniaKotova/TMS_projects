@@ -1,46 +1,44 @@
 body{
     margin: 0 auto;
-    width: fit-content;
+    width: auto;
     overflow-x: hidden;
     font-family: 'Mulish', sans-serif;
     background-color: #ffffff;
 }
 
-/* h1, h2, h3, h4, h5, h6{
-    margin: 0;
-    padding: 0;
-    font-family: 'DM Sans', sans-serif;
-} */
+
 
 .header__logo{
-    padding-top: 41px;
-    margin-left: 120px;
-    padding-right: 100px;
+    margin-top: 41px;
+
 }
 
 .header__inner{
+    justify-content: space-around;
     display: flex;
-    justify-content: space-between;
-   
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .header__nav{
     margin-top: 40px;
-    display: block;
-}
-.nav_link{
     display: inline-block;
-    
+    justify-content: space-between;
+}
+.nav__link{
     padding-top: 14px;
     margin-left: 46px;
     color: #696871;
     text-decoration: none;
     font-family: 'DM Sans', sans-serif;
-    font-size: 0.9375rem;
-    line-height: 19px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    
 }
 
-.nav_link:hover{
+.nav__link:hover{
     color:#19191B ;
     text-decoration:underline;
 }
@@ -50,10 +48,9 @@ button{
 }
 .header__btn{
    padding-top: 30px;
-   margin-left: 120px;
-   margin-right: 100px;
+   margin-right: 20px;
 }
-.btn_inner{
+.btn__inner{
     font-family: 'DM Sans', sans-serif;
     font-size: 17px;
     line-height: 22px;
@@ -73,8 +70,8 @@ button{
 }
 
 .content{
-    position: absolute;
-    margin-left: -60px;
+    position: relative;
+    margin-left: -100px;
     
 
 }
@@ -107,6 +104,8 @@ button{
 
 .hero__button{
     margin-bottom: 20px;
+   display: flex;
+  
 }
 .hero__btn{
     margin-top: 50px;
@@ -119,4 +118,25 @@ button{
     padding: 19px 59px 19px 59px;
     border-radius: 10px;
     border: none;
+}
+
+.hero__arrow{
+    display: flex;
+    margin-top: 51px;
+    margin-left: 40px;
+}
+
+.logos{
+    margin: 80px;
+    margin-top: 110px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__about{
+    margin-right: 130px; 
+}
+.logo__about:hover{
+    cursor: pointer;
 }
