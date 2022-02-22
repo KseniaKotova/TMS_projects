@@ -1,0 +1,142 @@
+body{
+    margin: 0 auto;
+    width: auto;
+    overflow-x: hidden;
+    font-family: 'Mulish', sans-serif;
+    background-color: #ffffff;
+}
+
+
+
+.header__logo{
+    margin-top: 41px;
+
+}
+
+.header__inner{
+    justify-content: space-around;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.header__nav{
+    margin-top: 40px;
+    display: inline-block;
+    justify-content: space-between;
+}
+.nav__link{
+    padding-top: 14px;
+    margin-left: 46px;
+    color: #696871;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    
+}
+
+.nav__link:hover{
+    color:#19191B ;
+    text-decoration:underline;
+}
+
+button{
+    cursor: pointer;
+}
+.header__btn{
+   padding-top: 30px;
+   margin-right: 20px;
+}
+.btn__inner{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    background-color: #FF7143;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 19px 60px 19px 60px;
+    border: none;
+    letter-spacing: -0.5px;
+    width: 211px;
+}
+
+.content__hero{
+    padding-top: 100px;
+    margin-left: 184px;
+}
+
+.content{
+    position: relative;
+    margin-left: -100px;
+    
+
+}
+.hero__inner{
+    display: flex;
+}
+
+.hero__sub{
+    width: 459px;
+    margin-right: 77px;
+    
+}
+
+.hero__title{
+    font-size: 5rem;
+    line-height: 77px;
+    letter-spacing: -2.50105px;
+    color:#19191B;
+    padding-top: 92px;
+}
+
+.hero__text{
+    font-size: 'Mulish', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #696871;
+}
+
+.hero__button{
+    margin-bottom: 20px;
+   display: flex;
+  
+}
+.hero__btn{
+    margin-top: 50px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #5454d4;
+    padding: 19px 59px 19px 59px;
+    border-radius: 10px;
+    border: none;
+}
+
+.hero__arrow{
+    display: flex;
+    margin-top: 51px;
+    margin-left: 40px;
+}
+
+.logos{
+    margin: 80px;
+    margin-top: 110px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__about{
+    margin-right: 130px; 
+}
+.logo__about:hover{
+    cursor: pointer;
+}
