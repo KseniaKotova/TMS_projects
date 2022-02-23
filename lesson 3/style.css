@@ -13,7 +13,7 @@ button{
 .header{
     display: flex;
     justify-content: space-between; 
-    background-color: #000000; 
+    background-color: #000; 
     width: 1510px;
     max-height: 75px;
     margin: 0 auto;
@@ -184,7 +184,7 @@ button{
 .social__line{
     margin: 0 auto;
     width: 1510px;
-    /* height: 140px; */
+    height: 120px;
     display: flex;
     justify-content: space-between;
     background-color: #f8efef;
@@ -222,3 +222,99 @@ button{
 .social__icon > a > img{
     margin-right: 45px;
 }
+
+.table{
+    margin: 0 auto;
+    width: 1510px;
+    display: flex;
+    background-color: #e5e5e5;
+}
+
+.tab__table{
+    /* margin-top: 99px;
+    margin-left: 170px;
+    margin-bottom: 50px; */
+    margin: 99px 0px 50px 170px;
+}
+
+.tab__tb{
+    display: flex;
+}
+
+.desc__text{
+    flex-direction: column;
+    padding-left: 100px;
+    display: flex;
+    border: 1px solid #c6cbcd;
+    border-top: none;
+}
+
+.tab__tb > span{
+  height: 40px;
+  width: 203px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #333333;
+}
+
+.text__main{
+    margin-bottom: 27px;
+    width: 570px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 124px;
+}
+
+.text__extra{
+    margin-right: 30px;
+    width: 570px;
+    height: 210px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.desc__image{
+    margin-top: 139px;
+}
+
+.desc__button{
+  margin-top: 27px;
+  margin-bottom: 52px;
+  width: 270px;
+  height: 58px;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  background: #ec7979;
+  border: none;
+}
+
+.desc__button:hover{
+    background-color: #ab4949;
+}
+
+.desc__button:active{
+    background-color: #ec7979;
+}
+
+.tab1 {
+    border: 1px solid #c6cbcd;
+    border-radius: 5px 5px 0 0;
+    border-bottom: none;
+  }
+  
+  .tab2 {
+    border-bottom: 1px solid #c6cbcd;
+  }
+  
+  .tab3 {
+    padding-right: 90px;
+    border-bottom: 1px solid #c6cbcd;
+  }
