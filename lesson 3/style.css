@@ -13,26 +13,21 @@ button{
 .header{
     display: flex;
     justify-content: space-between; 
-    background-color: #000000;
+    background-color: #000000; 
     width: 1510px;
     max-height: 75px;
     margin: 0 auto;
-   
 }
 .container{
     display: flex;
-    
 }
 .header__logo{
     padding-left: 115px;
 }
 .header__nav{
-    
     display: flex;
     flex-direction: row;
     margin-left: 500px;
-    
-    
 }
 .nav__link{
     line-height: 75px;
@@ -48,7 +43,6 @@ button{
     background-color: #EC7979;
     transition: color 1s;
 }
-
 .nav__link:active{
     background-color: #AB4949;
     transition: color 1s;
@@ -132,7 +126,6 @@ button{
 }
 
 .form{
-    
     padding-left: 50px;
     padding-right: 50px;    
     height: 90px;
@@ -186,4 +179,46 @@ button{
 
 .banner__wrapper{
     display: flex;
+}
+
+.social__line{
+    margin: 0 auto;
+    width: 1510px;
+    /* height: 140px; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8efef;
+}
+
+.social__text{
+    margin-left: 170px;
+    margin-right: 50px;
+}
+
+.main__text{
+    margin-top: 2px;
+    height: 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333333; 
+}
+
+.extra__text{
+    width: 470px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21, 13px;
+    color: #86878b;
+}
+
+.social__icon{
+    display: flex;
+    align-items: center;
+    line-height: 50%;
+}
+
+.social__icon > a > img{
+    margin-right: 45px;
 }
