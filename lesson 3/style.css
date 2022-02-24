@@ -1,320 +1,318 @@
-h1, p{
-    margin:0;
+h1,
+p {
+  margin: 0;
 }
-body{
-    margin: 0 auto;
-    font-family: 'Open Sans', sans-serif;
-    background-color: #ffffff;
-    width: 1510px;
+body {
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  background-color: #ffffff;
+  width: 1510px;
 }
-button{
-    cursor: pointer;
+button {
+  cursor: pointer;
 }
-.header{
-    display: flex;
-    justify-content: space-between; 
-    background-color: #000; 
-    width: 1510px;
-    max-height: 75px;
-    margin: 0 auto;
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  width: 1510px;
+  max-height: 75px;
+  margin: 0 auto;
 }
-.container{
-    display: flex;
+.container {
+  display: flex;
 }
-.header__logo{
-    padding-left: 115px;
+.header__logo {
+  padding-left: 115px;
 }
-.header__nav{
-    display: flex;
-    flex-direction: row;
-    margin-left: 500px;
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  margin-left: 500px;
 }
-.nav__link{
-    line-height: 75px;
-    height: 75px;
-    font-size: 14px;
-    width: 113px;
-    text-align: center;
-    text-decoration: none;
-    color: #ffffff;
+.nav__link {
+  line-height: 75px;
+  height: 75px;
+  font-size: 14px;
+  width: 113px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
 }
-.nav__link:hover{
-    color: #ffffff;
-    background-color: #EC7979;
-    transition: color 1s;
+.nav__link:hover {
+  color: #ffffff;
+  background-color: #ec7979;
+  transition: color 1s;
 }
-.nav__link:active{
-    background-color: #AB4949;
-    transition: color 1s;
-}
-
-.banner__bg{
-    margin: 0 auto;
-    background-image: url(bg.png), url(image.png);
-    height: 1026px;
-    width: 1510px;
+.nav__link:active {
+  background-color: #ab4949;
+  transition: color 1s;
 }
 
-.banner__logo{
-    padding-left: 170px;
-    padding-top: 230px;
+.banner__bg {
+  margin: 0 auto;
+  background-image: url(bg.png), url(image.png);
+  height: 1026px;
+  width: 1510px;
 }
 
-.banner__title{
-    display: flex;
-    padding-left: 170px;
-    width: 670px;
-    padding-top: 51px;
-    line-height: 56,35px;
-    color: #ffffff;
-    font-family: 'Raleway', sans-serif;
-    font-size: 48px;
+.banner__logo {
+  padding-left: 170px;
+  padding-top: 230px;
 }
 
-.banner__border{
-    margin-top: 55px;
-    margin-left: 170px;
-    width: 170px;
-    border: 1px solid #ffffff;
+.banner__title {
+  display: flex;
+  padding-left: 170px;
+  width: 670px;
+  padding-top: 51px;
+  line-height: 56, 35px;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 48px;
 }
 
-.banner__text{
-    margin-left: 170px;
-    margin-top: 42px;
-    width: 270px;
-    font-family: 'Raleway', sans-serif;
-    align-items: center;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21px;
-    color: #ffffff;
+.banner__border {
+  margin-top: 55px;
+  margin-left: 170px;
+  width: 170px;
+  border: 1px solid #ffffff;
 }
 
-.banner__btn{
-    margin-left: 170px;
-    margin-top: 42px;
-    width:270px;
-    height: 58px;
-    background: none;
-    border: 2px solid #ffffff;
-    font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
-    cursor: pointer;
-    color: #ffffff;
+.banner__text {
+  margin-left: 170px;
+  margin-top: 42px;
+  width: 270px;
+  font-family: "Raleway", sans-serif;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #ffffff;
 }
 
-.banner__btn:hover{
-    color: #EC7979;
-    border: 2px solid #EC7979;
-    transition: color 1s;
+.banner__btn {
+  margin-left: 170px;
+  margin-top: 42px;
+  width: 270px;
+  height: 58px;
+  background: none;
+  border: 2px solid #ffffff;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  cursor: pointer;
+  color: #ffffff;
 }
 
-.banner__btn:active{
-    color: #ffffff;
-    background-color: #AB4949;
-    border: 2px solid #AB4949;
-    transition: color 1s;
+.banner__btn:hover {
+  color: #ec7979;
+  border: 2px solid #ec7979;
+  transition: color 1s;
 }
 
-.banner__form{
-    margin-left: 30px;
-    margin-top: 230px;
-    width: 470px;
-    height: 450px;
-    background-color: #ffffff;
-    border-radius: 10px;
+.banner__btn:active {
+  color: #ffffff;
+  background-color: #ab4949;
+  border: 2px solid #ab4949;
+  transition: color 1s;
 }
 
-.form{
-    padding-left: 50px;
-    padding-right: 50px;    
-    height: 90px;
-    line-height: 90px;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 24px;
-    color: #333333;
+.banner__form {
+  margin-left: 30px;
+  margin-top: 230px;
+  width: 470px;
+  height: 450px;
+  background-color: #ffffff;
+  border-radius: 10px;
 }
 
-.color__form{
-    color: #EC7979;
+.form {
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #333333;
 }
 
-.form__input{
-    margin-left: 50px;
-    margin-right: 50px;
-    border: 0;
-    line-height: 39px;
-    border-bottom: 1px solid #BDBDBD;
-    width: 370px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    margin-top: 33px;
+.color__form {
+  color: #ec7979;
 }
 
-.form__btn{
-    margin-top: 75px;
-    width: 470px;
-    height: 60px;
-    background-color: #EC7979;
-    text-align: center;
-    line-height: 60px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    color: #fff;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+.form__input {
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 0;
+  line-height: 39px;
+  border-bottom: 1px solid #bdbdbd;
+  width: 370px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  margin-top: 33px;
 }
 
-.form__btn:hover{
-    background-color: #AB4949;
+.form__btn {
+  margin-top: 75px;
+  width: 470px;
+  height: 60px;
+  background-color: #ec7979;
+  text-align: center;
+  line-height: 60px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
-.form__btn:active{
-    background-color: #EC7979;
-    border: 2px solid #AB4949;
-    color: #ffffff;
+.form__btn:hover {
+  background-color: #ab4949;
 }
 
-.banner__wrapper{
-    display: flex;
+.form__btn:active {
+  background-color: #ec7979;
+  border: 2px solid #ab4949;
+  color: #ffffff;
 }
 
-.social__line{
-    margin: 0 auto;
-    width: 1510px;
-    height: 120px;
-    display: flex;
-    justify-content: space-between;
-    background-color: #f8efef;
+.banner__wrapper {
+  display: flex;
 }
 
-.social__text{
-    margin-left: 170px;
-    margin-right: 50px;
+.social__line {
+  margin: 0 auto;
+  width: 1510px;
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8efef;
 }
 
-.main__text{
-    margin-top: 2px;
-    height: 60px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    color: #333333; 
+.social__text {
+  margin-left: 170px;
+  margin-right: 50px;
 }
 
-.extra__text{
-    width: 470px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21, 13px;
-    color: #86878b;
+.main__text {
+  margin-top: 2px;
+  height: 60px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #333333;
 }
 
-.social__icon{
-    display: flex;
-    align-items: center;
-    line-height: 50%;
+.extra__text {
+  width: 470px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21, 13px;
+  color: #86878b;
 }
 
-.social__icon > a > img{
-    margin-right: 45px;
+.social__icon {
+  display: flex;
+  align-items: center;
+  line-height: 50%;
 }
 
-.table{
-    margin: 0 auto;
-    width: 1510px;
-    display: flex;
-    background-color: #e5e5e5;
+.social__icon > a > img {
+  margin-right: 45px;
 }
 
-.tab__table{
-    /* margin-top: 99px;
-    margin-left: 170px;
-    margin-bottom: 50px; */
-    margin: 99px 0px 50px 170px;
+.table {
+  margin: 0 auto;
+  display: flex;
+  width: 1510px;
+  background-color: #e5e5e5;
 }
 
-.tab__tb{
-    display: flex;
+.tab__table {
+  margin: 99px 0px 50px 170px;
 }
 
-.desc__text{
-    flex-direction: column;
-    padding-left: 100px;
-    display: flex;
-    border: 1px solid #c6cbcd;
-    border-top: none;
+.tab__tb {
+  display: flex;
 }
 
-.tab__tb > span{
+.desc__text {
+  flex-direction: column;
+  padding-left: 100px;
+  display: flex;
+  border: 1px solid #c6cbcd;
+  border-top: none;
+}
+
+.tab__tb > span {
   height: 40px;
   width: 203px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 19px;
   color: #333333;
 }
 
-.text__main{
-    margin-bottom: 27px;
-    width: 570px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 124px;
+.text__main {
+  margin-bottom: 27px;
+  width: 570px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 124px;
 }
 
-.text__extra{
-    margin-right: 30px;
-    width: 570px;
-    height: 210px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 400;
+.text__extra {
+  margin-right: 30px;
+  width: 570px;
+  height: 210px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 
-.desc__image{
-    margin-top: 139px;
+.desc__image {
+  margin-top: 139px;
 }
 
-.desc__button{
+.desc__button {
   margin-top: 27px;
   margin-bottom: 52px;
   width: 270px;
   height: 58px;
   color: #fff;
   font-size: 18px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background: #ec7979;
   border: none;
 }
 
-.desc__button:hover{
-    background-color: #ab4949;
+.desc__button:hover {
+  background-color: #ab4949;
 }
 
-.desc__button:active{
-    background-color: #ec7979;
+.desc__button:active {
+  background-color: #ec7979;
 }
 
 .tab1 {
-    border: 1px solid #c6cbcd;
-    border-radius: 5px 5px 0 0;
-    border-bottom: none;
-  }
-  
-  .tab2 {
-    border-bottom: 1px solid #c6cbcd;
-  }
-  
-  .tab3 {
-    padding-right: 90px;
-    border-bottom: 1px solid #c6cbcd;
-  }
+  border: 1px solid #c6cbcd;
+  border-radius: 5px 5px 0 0;
+  border-bottom: none;
+}
+
+.tab2 {
+  border-bottom: 1px solid #c6cbcd;
+}
+
+.tab3 {
+  padding-right: 90px;
+  border-bottom: 1px solid #c6cbcd;
+}
