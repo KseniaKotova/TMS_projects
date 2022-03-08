@@ -511,7 +511,6 @@ button {
 }
 
 .reviews {
-  /* background-color: #ffffff; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -573,29 +572,27 @@ button {
   border-top: 100px solid #e2e2e2;
   left: 30px;
   top: 130px;
-  bottom: -400px; 
-
-
+  bottom: -400px;
 }
-.customer__about{
+.customer__about {
   display: flex;
-  width: 1170px; 
+  width: 1170px;
   justify-content: space-around;
   align-items: center;
 }
-.customer{
+.customer {
   width: 370px;
   display: flex;
   margin-left: 20px;
 }
-.customer__photo > img{
+.customer__photo > img {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .customer__name {
-  font-family:'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -606,7 +603,7 @@ button {
   margin-bottom: 25px;
 }
 .customer__prof {
-  font-family:'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
@@ -616,59 +613,57 @@ button {
   padding-bottom: 60px;
 }
 
- .customer__contents{ 
+.customer__contents {
   padding-top: 10px;
-} 
-.city{
+}
+.city {
   width: 1510px;
   height: 442px;
   background-image: url(./logos/bg2.png), url(./logos/img2.png);
   margin-bottom: 50px;
 }
 
-.city__container{
+.city__container {
   width: 1170px;
   text-align: center;
   margin: 0 auto;
 }
 
 .city_title {
-  font-family:'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-top: 100px;
-
 }
 .city_hr {
   width: 170px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   margin-top: 50px;
 }
 .city_about {
-  font-family:'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   margin-top: 40px;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .city_btn {
   margin-top: 75px;
-  padding:15px 140px;
+  padding: 15px 140px;
   margin-bottom: 50px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   background-color: transparent;
   text-align: center;
-  color: #FFFFFF;
-  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 25px;
- 
 }
 
 .city_btn:hover {
@@ -684,20 +679,17 @@ button {
   transition: color 1s;
 }
 
-.contacts{
+.contacts {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 1510px;
 }
-.contacts__wrapper{
-  /* width: 1170px; */
-  /* margin-left: 170px; */
-  /* margin: 0 auto; */
+.contacts__wrapper {
   margin-bottom: 50px;
 }
 
-.input{
+.input {
   border: 0;
   line-height: 39px;
   border-bottom: 1px solid #bdbdbd;
@@ -707,32 +699,31 @@ button {
   margin-top: 33px;
 }
 
-.input.act{
+.input.act {
   margin-left: 630px;
   padding-bottom: 150px;
   height: 130px;
 }
 
-.input__act{
+.input__act {
   margin-top: -315px;
 }
 
-.contacts__btn{
- 
+.contacts__btn {
   margin-top: 75px;
-  padding:15px 140px;
+  padding: 15px 140px;
   margin-bottom: 50px;
   background-color: #ec7979;
   text-align: center;
   color: #ffffff;
   border: none;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 18px;
   line-height: 25px;
 }
 
-.contacts__btn:hover{
+.contacts__btn:hover {
   background-color: #ab4949;
 }
 
@@ -740,13 +731,13 @@ button {
   background-color: #ec7979;
 }
 
-.btn{
+.btn {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.footer{
+.footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -755,19 +746,18 @@ button {
   background-color: #000000;
 }
 
-.footer__logo{
+.footer__logo {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .footer__logo > a > img {
   margin-right: 27px;
-  /* margin-left: 32px; */
   padding: 20px 0;
 }
 
-.footer__info{
-  font-family: 'Raleway', sans-serif;
+.footer__info {
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 21px;
   text-align: center;
